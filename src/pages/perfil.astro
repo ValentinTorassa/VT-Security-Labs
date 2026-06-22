@@ -127,7 +127,7 @@ const rutasData = JSON.stringify(rutas);
         >
       </div>
       <p class="text-base-600 mt-4 font-mono text-[0.65rem]">
-        labs.vtsecurity.dev · aprendé construyendo evidencia
+        securitylabs.valentorassa.com · aprendé construyendo evidencia
       </p>
     </div>
 
@@ -338,7 +338,7 @@ const rutasData = JSON.stringify(rutas);
     async () => {
       const s = render();
       const user = getUsername() || "anónimo";
-      const text = `@${user} en VT Security Labs: ${s.pct}% del catálogo · ${s.labsDone} labs · ${s.rutasDone} rutas · ${s.examsDone} exámenes. labs.vtsecurity.dev`;
+      const text = `@${user} en VT Security Labs: ${s.pct}% del catálogo · ${s.labsDone} labs · ${s.rutasDone} rutas · ${s.examsDone} exámenes. securitylabs.valentorassa.com`;
       try {
         await navigator.clipboard.writeText(text);
         showMsg("✓ Resumen copiado al portapapeles.", true);
@@ -402,7 +402,7 @@ const rutasData = JSON.stringify(rutas);
 
       ctx.fillStyle = "#3b4750";
       ctx.font = `26px ${mono}`;
-      ctx.fillText("labs.vtsecurity.dev", 64, 600);
+      ctx.fillText("securitylabs.valentorassa.com", 64, 600);
 
       const url = canvas.toDataURL("image/png");
       const a = document.createElement("a");

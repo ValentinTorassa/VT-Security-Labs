@@ -11,7 +11,7 @@ export async function GET(context: APIContext) {
     title: "VT Security Labs",
     description:
       "Labs prácticos en español para entender Linux, redes, backend, cloud y ciberseguridad de verdad.",
-    site: context.site ?? "https://labs.vtsecurity.dev",
+    site: context.site ?? "https://securitylabs.valentorassa.com",
     items: sorted.map((lab) => ({
       title: lab.data.title,
       description: lab.data.description,
